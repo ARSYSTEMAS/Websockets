@@ -1,0 +1,8 @@
+VIDEO: https://www.youtube.com/watch?v=ppiAvvkvAz0
+
+1.Empezamos creando un paquete de Node para generar un package.json con las opciones por defecto:
+	npm init -y
+2. Ahora crearemos un fichero server/main.js que será nuestro servidor web. Para ello necesitaremos las librerías express y socket.io que instalamos vía npm:
+	 
+	$ npm install --save express
+	$ npm install --save socket.io
